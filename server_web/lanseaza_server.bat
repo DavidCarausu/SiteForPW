@@ -1,1 +1,0 @@
-C:\Users\david\PycharmProjects\PythonProject1\.venv\Scripts\python.exe server_web.py
