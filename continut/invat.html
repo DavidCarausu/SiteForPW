@@ -1,0 +1,64 @@
+
+    <aside>
+        <nav>
+            <a href="#section1">Sectiunea 1</a>
+            <a href="#section2">Sectiunea 2</a>
+            <a href="#section3">Sectiunea 3</a>
+        </nav>
+    </aside>
+    
+<section id="section1">
+    <p id="date">Se încarcă data...</p>
+    <p id="url"></p>
+    <p id="location"></p>
+    <p id="browser"></p>
+    <p id="os"></p>
+</section>
+
+<section id="section2">
+    <h3>Zona de Desen</h3>
+    <canvas id="canvas" width="300" height="150" style="border:1px solid #000; cursor: crosshair;"></canvas>
+  
+    <form id="formCulori">
+        <label for="fillColor">Culoare Umplere:</label>
+        <input type="color" id="fillColor" value="#ff0000"><br><br>
+
+        <label for="strokeColor">Culoare Contur:</label>
+        <input type="color" id="strokeColor" value="#000000"><br><br>
+
+        <button type="button" onclick="aplicaCulori()">Aplica Culorile</button>
+    </form>
+</section>
+
+
+<section id="section3">
+    
+    <div style="margin-bottom: 20px; border: 1px solid #ccc; padding: 10px;">
+        <label for="pos">Pozitie (index):</label>
+        <input type="number" id="pos" value="0" min="0">
+        
+        <label for="tableColor">Culoare:</label>
+        <input type="color" id="tableColor" value="#ff0000">
+        
+        <br><br>
+        
+        <input type="button" value="Inserează Linie" onclick="insereazaLinie()">
+        <input type="button" value="Inserează Coloană" onclick="insereazaColoana()">
+    </div>
+
+    <table id="tabelDinamic" border="1" style="border-collapse: collapse; min-width: 200px;">
+        <tr>
+            <td>Celulă 1.1</td>
+            <td>Celulă 1.2</td>
+        </tr>
+        <tr>
+            <td>Celulă 2.1</td>
+            <td>Celulă 2.2</td>
+        </tr>
+    </table>
+</section>
+
+    <footer>
+
+    </footer>
+
