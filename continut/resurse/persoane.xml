@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada> a </strada>
+            <numar> a </numar>
+            <localitate> a</localitate>
+            <judet> a</judet>
+            <tara> d </tara>
+        </adresa>
+        <cnp>12345678</cnp>
+    </persoana> 
+      <persoana id="2">
+        <nume>Georgescu</nume>
+        <prenume>Mihai</prenume>
+        <varsta>53</varsta>
+        <adresa>
+            <strada> ba </strada>
+            <numar> ab </numar>
+            <localitate> abd</localitate>
+            <judet> at</judet>
+            <tara> dfd </tara>
+        </adresa>
+        <cnp>12345674568</cnp>
+    </persoana>
+
+</persoane>
